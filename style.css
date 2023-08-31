@@ -1,0 +1,111 @@
+body{
+    background-image: url(./assets/Space\ 3.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+@media(min-width:60rem){
+    body{
+        height: 100vh;
+    }
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: .8em;
+    color: white;
+    }
+
+    nav a:focus,
+    nav a:hover{
+        color: #00ff6c;
+    }
+
+
+    .card{
+        position: relative;
+        padding: 10px 20px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+        height: 350px;
+        width: 250px;
+        display: inline-block;
+        }
+        
+        .card img{
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+
+        .port-items{
+            display: flex;
+            flex-direction: row;
+            padding: 0px;
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+    @media (max-width:1000px){
+        .port-items{
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button:la{
+            border-color: red;
+        }
+    } 
+        
+
+    .button{
+        font-size: 1.15rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-width: 2px;
+        border-style: solid;
+        padding: .5em 1.17em;
+        color: #00ff6c;
+        border-color: #00ff6c;
+    }
+
+    .button:hover,
+    .button:focus{
+        background-color: #00ff6c;
+        color: black;
+    }
+
+
+    footer{
+        padding: 5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .unstyled-list{
+        list-style: none;
+        padding: px;
+
+    }
+  
